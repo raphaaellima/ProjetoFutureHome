@@ -1,6 +1,6 @@
-@import url(/componentes/Css/reset.css);
-@import url(/componentes/Css/global.css);
-@import url(/componentes/Css/pills.css);
+@import url(/css/reset.css);
+@import url(/css/global.css);
+@import url(/css/pills.css);
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@100;400&display=swap');
 
 body::before {
