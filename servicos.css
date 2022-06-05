@@ -1,10 +1,10 @@
-@import url(/components/Css/CssPaginaInicial.css);
+@import url(CssPaginaInicial.css);
 
 
 
 
 body{
-    background-image: url(/components/Css/assets/Background.png);
+    background-image: url(Background.png);
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 200vh;
