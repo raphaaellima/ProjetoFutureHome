@@ -1,0 +1,52 @@
+
+
+.main-content{
+    position: relative;
+    height: 37rem;
+    width: 190vh;
+    padding: auto;
+    justify-content: space-between;
+    margin: 2.15rem 5rem;
+    border-radius: 25px;
+
+}
+
+
+
+.content{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+span a{
+    background-color: transparent;
+    border-radius: 30px;
+    border: solid 4px white;
+    background-color: #8B0000;
+    text-transform: uppercase;
+    color: white;
+}
+
+.texto-main{
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.texto-main:hover{
+    text-shadow: 0px 0px 5px #fff;
+}
+
+.video-main{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    width: 800px;
+    left: 375px;
+}
+video{
+    position: absolute;
+    opacity: 1;
+}

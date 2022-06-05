@@ -1,0 +1,99 @@
+@import url('./assets/reset.css');
+@import url('./assets/global.css');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&family=Poppins:wght@100;400&display=swap');
+@import url('./home.css');
+
+
+
+body::before{
+    content: '';
+    background-image: url('./assets/Background.png');
+    transition: background-image 1s ease-in-out, opacity 1s ease-in-out;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0.98;
+    background-size: cover;
+    margin: auto;
+    min-height: 820px;
+    min-width: 1650px;
+}
+
+
+header{
+    height: 10rem;
+    background-color: #8B0000;
+    width: 100%;
+    min-width: 1650px;
+    position: fixed;
+}
+
+ul.pills{
+    margin-top: 50px;    
+}
+
+#topo{
+    text-transform: uppercase;
+    display: flex;
+    position: relative;
+}
+
+img{
+    width: 200px;
+    height: 130px ;
+    margin-top: 10px;
+}
+
+.titulo{
+    font-size: 3rem;
+    text-align: center;
+    width: 25vh;
+    display: inline-block;
+    width: auto;
+    color: white;
+    text-align: center;
+    width: 300px;  
+    margin-top: 10px;
+}
+
+
+i{
+    font-size: 2.4rem;
+    display: flex;
+    text-align: center;
+    color: white;
+    font-family: 'Courgette', cursive;  
+    margin-right: 90px;
+    width: 300px;
+}
+
+.navegacao{
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    text-transform: uppercase;
+}
+
+a{ 
+    padding: 0.5rem 5rem ;
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;
+
+}
+
+.pills.navegacao:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    text-shadow: 0px 0px 5px #fff;
+}
+
+
+.pills .navegacao{
+    border-radius: 20px;
+    background-color: transparent;
+    vertical-align: middle;
+    border: solid 5px white;
+    font-weight: 900;
+}
+
+
